@@ -1,13 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  color: #222222;
+  background-color: #FFF4F8; 
+  color: #35263D;
 }
  
 nav {
-  background-color: #1F2A44;
+  background-color:#E9DDFB;
   padding: 15px;
 }
  
@@ -18,13 +20,16 @@ nav a {
   font-weight: bold;
 }
  
-nav a:hover {
+nav a:hover,
+nav a:focus {
   text-decoration: underline;
-  color: #FFCC00;
+  color: #8E3266;
 }
  
 h1, h2 {
-  padding: 0 20px;
+   padding: 0 20px;
+  font-family: "Sofia", cursive;
+  color: #6B3F85;
 }
  
 p {
